@@ -2594,7 +2594,7 @@ input[type=number] {
     margin-top: 22px!important;
 }
 .element-normal-bottom {
-    margin-bottom: 72px!important;
+    margin-bottom: 22px!important;
 }
 .element-medium-top {
     margin-top: 48px!important;
@@ -3522,6 +3522,18 @@ ul.inline li {
     position: fixed;
     width: 17%;
     top: 90px;
+}
+.social_links{
+    float: right;
+    padding-top: 5%;
+}
+    
+.social_link{
+    padding-left: 5px;
+    font-size: 30px;
+}
+.social_link i:hover{
+    color:#82c9ed !important;
 }
 @media (max-width:992px) {
     .docs-sidebar-nav.affix, .docs-sidebar-nav.affix-bottom {
