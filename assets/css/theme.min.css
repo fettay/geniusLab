@@ -3535,6 +3535,10 @@ ul.inline li {
 .social_link i:hover{
     color:#82c9ed !important;
 }
+.logo_b{
+    width:50%;
+    float:left;
+}
 @media (max-width:992px) {
     .docs-sidebar-nav.affix, .docs-sidebar-nav.affix-bottom {
     width: 17%}
@@ -3711,6 +3715,13 @@ ul.social-icons.social-rect li a {
     width: 48px;
     height: 48px;
     line-height: 48px;
+}
+.social_links{
+    float:none;
+    margin-left: 200px;
+}
+.logo_b{
+    float: none;
 }
 }.icons-ul {
     padding-left: 0;
@@ -6035,6 +6046,10 @@ div.mejs-speed-button {
     .media-comment {
     margin-top: 48px;
 }
+   .social_links{
+    float:none;
+    margin-left: 150px;
+}
 .media-comment .media-inner {
     padding-top: 20px;
 }
@@ -6421,6 +6436,13 @@ div.mejs-speed-button {
     #masthead .menu-sidebar .sidebar-widget {
     display: none;
 }
+    .social_links{
+    float:none;
+    margin-left: 200px;
+}
+    .logo_b{
+        float:none;
+    }
 .sidebar {
     margin-top: 80px;
 }
