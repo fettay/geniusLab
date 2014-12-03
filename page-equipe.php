@@ -1,63 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>GeniusLab</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="yes" name="apple-mobile-web-app-capable">
-    <link rel="stylesheet" href="assets/css/demo/switcher.min.css" media="screen">
-    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,300italic,400italic,600italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/theme.min.css">
-    <link rel="stylesheet" href="assets/css/color-defaults.min.css" media="screen">
-    <link rel="stylesheet" href="assets/css/swatch-white.min.css" media="screen">
-    <link rel="stylesheet" href="assets/css/swatch-blue.min.css" media="screen">
-    <link rel="stylesheet" href="assets/css/swatch-gray.min.css" media="screen">
-    <link rel="stylesheet" href="assets/css/swatch-black.min.css" media="screen">
-    <link rel="stylesheet" href="assets/css/swatch-white-black.min.css" media="screen">
-    <link rel="stylesheet" href="assets/css/swatch-white-green.min.css" media="screen">
-    <link rel="stylesheet" href="assets/css/swatch-white-red.min.css" media="screen">
-    <link rel="stylesheet" href="assets/css/fonts.min.css" media="screen">
-    <style>
-    body {
-        background-color: #252B28;
-    }
-    </style>
-</head>
-<body class="normal-header">
-    <div id="masthead" class="navbar navbar-static-top swatch-white navbar-sticky" role="banner">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".main-navbar">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a href="index.html" class="navbar-brand">
-                        <img src="assets/images/logo.png" alt="One of the best themes ever">
-                    </a>
-                </div>
-                <nav class="collapse navbar-collapse main-navbar" role="navigation">
-                        <ul class="nav navbar-nav navbar-right">
-                        <li class="dropdown menu-item-object-oxy_mega_menu ">
-                            <a href="index.html">Accueil</a>
-                        </li>
-                        <li class="dropdown">
-                            <a href="page-service.html">Services</a>
-                        </li>
-                        <li class="dropdown">
-                            <a href="page-equipe.html">L'équipe</a>
-                        </li>
-                        <!--<li class="dropdown">
-                            <a href="#contact">Projets</a>
-                        </li>-->
-                        <li class="dropdown">
-                            <a href="/index.html#contact">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
+<?php include 'header.php'; ?>  
     <div id="content">
         <article>
             <section class="section swatch-black section-text-shadow section-inner-shadow">
@@ -184,27 +125,4 @@ Parce que la création d'un réseau social est bien différente de celle d'un si
                 </section>
     </article>
 </div>
-<footer id="footer" role="contentinfo">
-            <section class="section swatch-black">
-                <div class="container">
-                <div class="row staff-list-container list-container element-short-top element-normal-bottom">
-                        <div class="col-md-9 staff-os-animation" ><div class="figure fade-in element-no-top element-no-bottom image-filter-grayscale image-filter-onhover text-center figcaption-middle">
-                         <img src="assets/images/logo-b.png" class="normalwidth">
-                        </div>
-                        </div>
-                    <div class="col-md-3 staff-os-animation" ><div class="figure fade-in element-no-top element-no-bottom image-filter-grayscale image-filter-onhover text-center " >
-                            <img src="assets/images/facebook.png" class="normalwidth">
-                            <img src="assets/images/twitter.png" class="normalwidth">
-                            <img src="assets/images/linkedin.png" class="normalwidth">
-                        </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </footer>
-    <script src="assets/js/packages.min.js"></script>
-    <script src="assets/js/theme.min.js"></script>
-    <script src="assets/js/switcher.min.js"></script>
-</body>
-</html>
-<!-- Localized -->
+<?php include 'footer.php';?> 
